@@ -6,7 +6,7 @@
   list-style: none;
 }
 
-:root {
+/* :root {
   --primary-font-family: "Inter", sans-serif;
   --primary-color: #ff6b00;
   --color-secondary: #ec5242;
@@ -14,14 +14,14 @@
   --color-white: #fff;
   --color-grey: #585858;
   --color-light-grey: #ebf0ee;
-}
+} */
 
 h1 {
   font-size: 40px;
   text-align: center;
   color: #323246;
   font-family: 'Inter', sans-serif;
-  font-weight: 800;
+  font-weight: 300;
 }
 
 section.visible {
@@ -97,7 +97,7 @@ section.invisible {
   align-items: center;
   margin: auto;
   gap: 2rem;
-  max-width: 800px;
+  max-width: 900px;
 }
 
 #book-addition {
@@ -105,23 +105,23 @@ section.invisible {
   flex-direction: column;
   width: 100%;
   position: relative;
-  border: 2px solid black;
+  border: 0.5px solid black;
 }
 
 #book-addition div {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   padding: 1rem;
 }
 
 #book-addition div:nth-of-type(odd) {
-  background-color: #e59933;
+  background-color: #eee;
 }
 
 #book-addition div:nth-of-type(even) {
-  background-color: #eded5a;
+  background-color: white;
 }
 
 button {
@@ -156,12 +156,6 @@ button:hover {
   display: block;
   margin: auto;
   position: relative;
-}
-
-.contact h1 {
-  color: #323246;
-  font-family: 'Inter', sans-serif;
-  font-weight: 600;
 }
 
 #form h1 {
@@ -211,12 +205,13 @@ button:hover {
 .contact-text h2 {
   color: #323246;
   font-family: 'roboto', sans-serif;
+  font-weight: 100;
 }
 
 .contact-text h3 {
   color: #323246;
   font-family: 'Inter', sans-serif;
-  font-weight: 800;
+  font-weight: 300;
 }
 
 .contact-text ul li {
