@@ -31,13 +31,12 @@ section.invisible {
   width: 80%;
   display: flex;
   justify-content: space-between;
-  border-right: 2px solid #7676ff;
+  border-right: 1px solid #7676ff;
 }
 
 .nav-first p {
   color: #7676ff;
   font-family: 'Inter', sans-serif;
-  font-weight: 800;
   margin: 2px 2px;
   padding: 2px 2px;
 }
@@ -48,13 +47,12 @@ section.invisible {
   padding: 2px 2px;
   display: flex;
   justify-content: center;
-  border-right: 2px solid #7676ff;
+  border-right: 1px solid #7676ff;
 }
 
 .nav-second p {
   color: #7676ff;
   font-family: 'Inter', sans-serif;
-  font-weight: 800;
 }
 
 .container-time {
@@ -67,7 +65,6 @@ section.invisible {
 #date {
   color: #7676ff;
   font-family: 'Inter', sans-serif;
-  font-weight: 800;
 }
 
 .date {
@@ -235,7 +232,7 @@ button:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-top: #000 2px solid;
+  border-top: #000 1px solid;
   color: #000;
   background-color: white;
   margin-top: 10rem;
@@ -244,7 +241,6 @@ button:hover {
 .footer p {
   color: #323246;
   font-family: 'Inter', sans-serif;
-  font-weight: 800;
 }
 
 #book-addition div p {
