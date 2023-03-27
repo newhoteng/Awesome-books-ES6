@@ -1,12 +1,8 @@
-// import and export all required funtions
+// import and export all required funtions/modules
 import Book from './modules/book.js';
-// export {default as Book} from 'modules/book.js';
 import Ui from './modules/display.js';
-// export {default as Ui} from 'modules/display.js';
 import Store from './modules/store.js';
-
 import { displayBooks, displayForm, displayContact } from './modules/navigation.js';
-// import { DateTime } from './node_modules/luxon/src/luxon.js';
 import displayCurrentDate from './modules/current_date.js';
 
 document.addEventListener('DOMContentLoaded', Ui.displaybooks);
