@@ -1,4 +1,4 @@
-export class Store {
+export default class Store {
   static getbooks() {
     let books;
     if (localStorage.getItem('books') === null) {

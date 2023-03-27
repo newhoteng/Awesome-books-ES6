@@ -1,4 +1,3 @@
-
 export const displayBooks = () => {
   document.querySelector('.book-list').classList.remove('invisible');
   document.querySelector('.add-books').classList.remove('visible');

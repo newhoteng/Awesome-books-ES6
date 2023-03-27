@@ -1,6 +1,6 @@
-import {Store} from './store.js';
+import Store from './store.js';
 
-export class Ui {
+export default class Ui {
   static displaybooks() {
     const books = Store.getbooks();
     books.forEach((book) => Ui.addbooktolist(book));
