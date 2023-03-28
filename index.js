@@ -3,7 +3,8 @@ import Book from './modules/book.js';
 import Ui from './modules/display.js';
 import Store from './modules/store.js';
 import { displayBooks, displayForm, displayContact } from './modules/navigation.js';
-import displayCurrentDate from './modules/current_date.js';
+import { DateTime } from './modules/luxom.js';
+// import displayCurrentDate from './modules/current_date.js';
 
 document.addEventListener('DOMContentLoaded', Ui.displaybooks);
 
@@ -30,8 +31,9 @@ document.querySelector('#book-addition').addEventListener('click', (e) => {
   Store.removebook(e.target.getAttribute('data-modal'));
 });
 
-// current date & time
-document.getElementById('date').innerHTML = displayCurrentDate();
+// current date & time from luxon
+let dateNow = DateTime.now()
+document.getElementById('date').innerHTML = dateNow.toLocaleString(DateTime.DATETIME_MED);
 
 document.querySelector('.list-page').addEventListener('click', displayBooks);
 document.querySelector('.add-page').addEventListener('click', displayForm);

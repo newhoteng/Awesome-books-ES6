@@ -32,19 +32,21 @@ section.invisible {
   display: flex;
   justify-content: space-between;
   border-right: 1px solid #7676ff;
+  /* border: 1px solid blue; */
 }
 
 .nav-first p {
   color: #7676ff;
   font-family: 'Inter', sans-serif;
   margin: 2px 2px;
-  padding: 2px 2px;
+  padding: 10px 20px 10px 0;
+  
 }
 
 .nav-second {
   width: fit-content;
   margin: 2px 2px;
-  padding: 2px 2px;
+  padding: 10px 20px 10px 2px;
   display: flex;
   justify-content: center;
   border-right: 1px solid #7676ff;
@@ -199,7 +201,11 @@ button:hover {
 .contact-text h3 {
   color: #323246;
   font-family: 'Inter', sans-serif;
-  font-weight: 300;
+  font-weight: 500;
+}
+
+.contact-text ul {
+  margin-top: 10px;
 }
 
 .contact-text ul li {
@@ -207,6 +213,7 @@ button:hover {
   font-family: 'Inter', sans-serif;
   font-weight: 500;
   font-size: 14px;
+  padding: 5px;
 }
 
 .contact-text ul li a {
