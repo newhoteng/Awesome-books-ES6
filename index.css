@@ -32,6 +32,7 @@ section.invisible {
   display: flex;
   justify-content: space-between;
   border-right: 1px solid #7676ff;
+
   /* border: 1px solid blue; */
 }
 
@@ -40,7 +41,6 @@ section.invisible {
   font-family: 'Inter', sans-serif;
   margin: 2px 2px;
   padding: 10px 20px 10px 0;
-  
 }
 
 .nav-second {

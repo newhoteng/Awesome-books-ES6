@@ -32,7 +32,7 @@ document.querySelector('#book-addition').addEventListener('click', (e) => {
 });
 
 // current date & time from luxon
-let dateNow = DateTime.now()
+const dateNow = DateTime.now();
 document.getElementById('date').innerHTML = dateNow.toLocaleString(DateTime.DATETIME_MED);
 
 document.querySelector('.list-page').addEventListener('click', displayBooks);
