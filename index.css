@@ -56,6 +56,22 @@ section.invisible {
   color: #7676ff;
   font-family: 'Inter', sans-serif;
 }
+/* Add space on the right of Navigation links */
+.nav-link {
+  margin-right: 20px; /* Adjust the number of pixels to increase or decrease the space */
+}
+
+/* Add space on the right of the last Navigation link */
+.nav-link:last-child {
+  margin-right: 0;
+}
+
+/* Make Contact us Heading and Paragraph bolder */
+.contact-heading,
+.contact-paragraph {
+  font-weight: bold;
+}
+
 
 .container-time {
   margin: auto;
